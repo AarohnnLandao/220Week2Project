@@ -20,7 +20,7 @@ Loc_status             INT			NOT NULL,
 CD_Name 			   VARCHAR(50)  NOT NULL,
 Release_Date		   DATETIME     NULL,
 PRIMARY KEY (CD_ID),
-FOREIGN KEY (Loc_status) REFERENCES CD_Status(Loc_status) );
+FOREIGN KEY (Loc_status) REFERENCES CD_Status(Loc_status));
 GO
 
 CREATE TABLE Artist_type
